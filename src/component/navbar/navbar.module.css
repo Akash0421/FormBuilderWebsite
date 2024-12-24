@@ -1,0 +1,66 @@
+
+.navbar{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbarLogo img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .navbarLogo span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbarLinks {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navbarLinks button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Sign In button */
+  .navbarLinks button:first-child {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  .navbarLinks button:first-child:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Create a FormBot button */
+  .navbarLinks button:last-child {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .navbarLinks button:last-child:hover {
+    background-color: #0056b3;
+  }

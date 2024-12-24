@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formContainer{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form {
+   width: 400px; 
+   display: flex;
+   flex-direction: column;
+   gap: 0.7rem;
+}
+  
+  label {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid #FFFFFF80; 
+    border-radius: 5px;
+    background-color: #1e1e1e; 
+    color: #C4C4C4;    ;
+    font-size: 0.87rem;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
+  }
+  
+  button {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"] {
+    background-color: #1A5FFF;
+    color: #fff;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #444;
+    cursor: not-allowed;
+  }
+  
+  span {
+    text-align: center;
+    display: block;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+  }
+  
+  .signUp {
+    color: #1A5FFF;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signUp:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+  }
+  
+  span + button {
+    background-color: #4285f4; /* Google button blue */
+    color: #fff;
+  }
+  
+  span + button:hover {
+    background-color: #3367d6;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+
+
+
+
+
+
+
+
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+
+.form {
+    width: 400px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: black;
+  }
+  
+  
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+  } */
